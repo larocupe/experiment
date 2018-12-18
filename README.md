@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/main.css"/>
-<title>LAURA PEGG GRADUATE</title>
+
+    <title>LAURA PEGG GRADUATE</title>
   </head>
   <body>
     <!-- Optional JavaScript -->
@@ -49,11 +50,11 @@
 </nav>
 <main>
 <div class="jumbotron" style="background-color: white;">
-     <h1 style="text-align:center;" class="intropage">I am a first class graduate</h1>
+	   <h1 style="text-align:center;" class="intropage">I am a first class graduate</h1>
 </div>
 </main>
 <div class="flex-container">
-  <div><p href="http://www.linkedin.co.uk">LinkedIn</p></div>
+  <div><p href="http://www.linkedin.co.uk/">LinkedIn</p></div>
 
   <div><p href="http://www.Twitter.com">Twitter</p></div>
 
