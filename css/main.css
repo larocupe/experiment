@@ -1,3 +1,6 @@
+box-sizing{
+  content
+}
 
 button{
   color: blue;
@@ -13,44 +16,50 @@ button{
 
 h1{
 	color: #df6e21;
-	font-family: 'Bodoni Antiqua', palatino;
+	font-family: 'Libre Baskerville', bold, palatino;
 	font-weight: 600;
 }
 
 h2 {
   text-align: center;
 	color: #acbebe;
-	font-family: 'Radley', serif;
+	font-family: 'Libre Franklin', serif;
   font-weight: 300;
 }
 
 h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
+	font: italic normal 1.4em 'Libre Baskerville', sans-serif;
 	letter-spacing: 1px; 
 	color: #A01d26;
 	}
 
 h4 {
+  text-align: center;
 	font-color: #002c54;
 	font-weight: 200;
 }
+h5{
+  font-family: 'Libre Franklin';
+  font-colour: ##acbebe;
+}
 
 html {
-	margin: 25;
-	padding: 25,10,25,10;
-	}
+  box-sizing: border-box;
+}
 
 body {
 	background-color: white;
 	margin: 25; 
-	padding: 25,10,25,10;
 	}
 
 p { 
   color: #16253d;
-	margin-top: 10; 
-	margin-bottom: 10
+	margin-top: 10px; 
+	margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
   text-align: center;
+  font-family: 'Libre Franklin';
 	}
 .navbar-brand{
   font-family: 'Libre Baskerville',palatino;
@@ -59,46 +68,38 @@ p {
 }
 
 .nav-item{
-  font-family: 'Bodoni',palatino;
+  font-family: 'Bodoni Antiqua',palatino;
   font-color: #002c54;
 }
-
+.card{
+  justify-content: space-around;
+  box-sizing: border-box;
+  box-shadow: rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0px, 8px, 16px, 0px rgba(0,0,0,0.2);
+}
+.card-text{
+  color: #16253d;
+  font-family: 'Libre Franklin';
+}
 
 .footer-col-wrapper {
-  @include relative-font-size(0.9375);
-  color: $grey-color;
-  margin-left: -$spacing-unit / 2;
-  @extend %clearfix;
+  color: #grey;
+  margin-left: 2.5em;
 }
 
 .footer-col {
-  width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-  width:         calc(100% - (#{$spacing-unit} / 2));
-  margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
+  color: #F6DFD6;
+  margin-bottom: 5em;
+  padding-left: 20px;
 }
-
-.footer-col-1,
-.footer-col-2 {
-  width: -webkit-calc(50%);
-  width:         calc(50% - (#{$spacing-unit} / 2));
+.row-sm-10{
+  color: #grey;
+  padding-left: 2.5em;
 }
-
-.footer-col-3 {
-  width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-  width:         calc(100% - (#{$spacing-unit} / 2));
+.row-sm-11{
+  color: #blue;
+  padding: 1.5em;
 }
-  .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - / 2));
-  }
