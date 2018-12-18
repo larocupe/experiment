@@ -9,13 +9,15 @@ button{
 }
 
 .container{
-   color: #white;
+  width: 75%;
+  float: center;
+  color: #white;
   font-family: Bodoni Antiqua;
 
 }
 
 h1{
-	color: #df6e21;
+	color: #ea823e;
 	font-family: 'Libre Baskerville', bold, palatino;
 	font-weight: 600;
 }
@@ -62,9 +64,9 @@ p {
   font-family: 'Libre Franklin';
 	}
 .navbar-brand{
+
   font-family: 'Libre Baskerville',palatino;
   font-color: #002c54
-  font
 }
 
 .nav-item{
@@ -72,8 +74,6 @@ p {
   font-color: #002c54;
 }
 .card{
-  justify-content: space-around;
-  box-sizing: border-box;
   box-shadow: rgba(0,0,0,0.2);
   transition: 0.3s;
 }
@@ -85,21 +85,14 @@ p {
   font-family: 'Libre Franklin';
 }
 
-.footer-col-wrapper {
-  color: #grey;
-  margin-left: 2.5em;
-}
 
 .footer-col {
   color: #F6DFD6;
-  margin-bottom: 5em;
+  margin-bottom: 1em;
   padding-left: 20px;
 }
-.row-sm-10{
-  color: #grey;
-  padding-left: 2.5em;
-}
-.row-sm-11{
-  color: #blue;
-  padding: 1.5em;
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: baseline;
 }
