@@ -6,7 +6,6 @@
   position: relative;
 }
 
-
 button{
   color: blue;
   font-family: sans-serif;
@@ -18,13 +17,13 @@ button{
   float: center;
   color: #white;
   font-family: Bodoni Antiqua;
-
 }
 
 h1{
 	color: #ea823e;
 	font-family: 'Libre Baskerville', bold, palatino;
 	font-weight: 600;
+  margin-top: 1em;
 }
 
 h2 {
@@ -56,8 +55,7 @@ html {
 }
 
 body {
-	background-color: white;
-	margin: 25; 
+	background-color: #ffffff;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -81,17 +79,16 @@ ul, ol, dl, figure,
  * `main` element
  */
 main {
+  margin-top: 1em;
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 /**
  * Images
  */
 img {
-  max-width: 100%;
+  margin: 1em, 1em, 1em, 1em;
   vertical-align: middle;
 }
-
-
 /**
  * Links
  */
@@ -171,35 +168,45 @@ p {
   text-align: center;
   font-family: 'Libre Franklin';
 	}
+.navbar{
+  background-color: #white;
+}
 .navbar-brand{
-
   font-family: 'Libre Baskerville',palatino;
   font-color: #002c54
 }
-
+.navbar-toggle{
+  font-family: 'Bodoni Antiqua';
+}
 .nav-item{
   font-family: 'Bodoni Antiqua',palatino;
   font-color: #002c54;
+
 }
 .card{
   box-shadow: rgba(0,0,0,0.);
   transition: 0.3s;
+  background-color: #white;
+  widows: 18rem;
 }
 }
 .card-text{
   color: #16253d;
   font-family: 'Libre Franklin';
+  background-color: #white;
 }
 
 .footer-col {
   color: #F6DFD6;
   margin-bottom: 1em;
   padding-left: 20px;
+  background-color: #white;
 }
 .flex-container {
   display: flex;
   flex-direction: row-reverse;
   align-items: baseline;
+  background-color: #white;
 }
 /**
  * Page content
