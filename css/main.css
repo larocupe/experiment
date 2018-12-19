@@ -1,6 +1,11 @@
-box-sizing{
-  content
+* { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+  vertical-align: middle;
+  position: relative;
 }
+
 
 button{
   color: blue;
@@ -231,7 +236,9 @@ p {
   @include relative-font-size(1.5);
 }
 
-
+.logo {
+  background-image: url(logo.png);
+}
 
 /**
  * Posts
